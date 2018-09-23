@@ -1,0 +1,33 @@
+{
+  "name": "ronaldmiya",
+  "version": "0.1.0",
+  "description": "Paquete que calcula dias restantes hasta navidad, cuantos años posees y valida formularios.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel source/ -d dist/source",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonaldMiya/tecsup2018tareaMiya.git"
+  },
+  "keywords": [
+    "Desarrollo",
+    "de",
+    "Aplicaciones",
+    "Web",
+    "Avanzado"
+  ],
+  "author": "Ronald Miya <ronald.miya@tecsup.edu.pe>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RonaldMiya/tecsup2018tareaMiya/issues"
+  },
+  "homepage": "https://github.com/RonaldMiya/tecsup2018tareaMiya#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
