@@ -8,7 +8,7 @@ const edad = ronaldmiya.edad('1996/12/21') //=> 21
 const isString = ronaldmiya.isString('test') //=> true
 const isName = ronaldmiya.isName('Test Name') //=> true
 const isNumber = ronaldmiya.isNumber('20') //=> true
-const isDecimal = ronaldmiya.isDecimal(20.100) //=> false
+const isDecimal = ronaldmiya.isDecimal(20.212) //=> false
 const isNumberPhone = ronaldmiya.isNumberPhone('+51 953953953') //=> true
 const isEmail = ronaldmiya.isEmail('test@gmail.com') //=> true
 const isDate = ronaldmiya.isDate('20/12/2018') //=> true
